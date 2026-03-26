@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        return len(s.split()[-1])
+        # return len(s.split()[-1])
         r=s.strip()
         v=r.split(" ")
         
@@ -23,18 +23,5 @@ class Solution(object):
 
 
 
-                # for j in v:
-                #     for char in j:
-                #         m.append(char)
-
-                #     return len(m)            
- 
-
-
-            # if i==len(v):
-            #     for char in i:
-            #         m.append(i)
-
-            # return len(m)
 
 
