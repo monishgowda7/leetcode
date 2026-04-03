@@ -20,7 +20,7 @@ class Solution(object):
         l=int(d)
 
 
-        if l>2**31 - 1 or l<=-2**31:
+        if l>=2**31 - 1 or l<=-2**31:
             return 0
 
 
