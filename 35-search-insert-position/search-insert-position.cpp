@@ -6,10 +6,8 @@ public:
             return 0;
         }
         for(int i=0; i<nums.size()-1; i++){
-            if(target<nums[i]){
-                return i;
-            }
-            else if (target<=nums[i+1] && target>nums[i]){
+            
+            if (target<=nums[i+1] && target>nums[i]){
                 return i+1;
             }
         }
